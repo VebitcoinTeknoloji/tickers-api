@@ -22,20 +22,50 @@ Example usage: https://www.vebitcoin.com/Ticker/Btc
 <code>GET</code> .../Ticker/Btc
 
 **Result:**
-``` json
+
+```json
 {
-Last: 37716.84,
-High: 38303.14,
-Low: 35659.84,
-Vwap: 37037.64,
-Volume: 32.6852999,
-Bid: 37648.45,
-Ask: 37716.84,
-Time: "2017-11-26T13:29:26.21",
-Open: 37268.57
+  "Last": 37716.84,
+  "High": 38303.14,
+  "Low": 35659.84,
+  "Vwap": 37037.64,
+  "Volume": 32.6852999,
+  "Bid": 37648.45,
+  "Ask": 37716.84,
+  "Time": "2017-11-26T13:29:26.21",
+  "Open": 37268.57
 }
 ```
 * Last: Last BTC price.
+* High: Last 24 hours price high.
+* Low: Last 24 hours price low.
+* Vwap: Last 24 hours volume weighted average price.
+* Volume: Last 24 hours volume.
+* Bid: Highest buy order.
+* Ask: Lowest sell order.
+* Time: Unix timestamp date and time.
+* Open : First price of the day.
+
+## Ticker LTC
+
+<code>GET</code> .../Ticker/LTC
+
+**Result:**
+
+```json
+{
+  "Last": 37716.84,
+  "High": 38303.14,
+  "Low": 35659.84,
+  "Vwap": 37037.64,
+  "Volume": 32.6852999,
+  "Bid": 37648.45,
+  "Ask": 37716.84,
+  "Time": "2017-11-26T13:29:26.21",
+  "Open": 37268.57
+}
+```
+* Last: Last LTC price.
 * High: Last 24 hours price high.
 * Low: Last 24 hours price low.
 * Vwap: Last 24 hours volume weighted average price.
