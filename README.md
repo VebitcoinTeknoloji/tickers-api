@@ -1,6 +1,6 @@
 # Vebitcoin Tickers API documentation
 
-Vebitcoin Coin instant API document
+Vebitcoin coin instant Api document
 
 ## Usage
 
