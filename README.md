@@ -17,7 +17,7 @@ Example usage: https://www.vebitcoin.com/Ticker/Btc
 * If you make more than 60 consequent unauthorized requests your IP address will be blocked.
 
 
-## Ticker BTC
+## Ticker BTC (Bitcoin)
 
 <code>GET</code> .../Ticker/Btc
 
@@ -46,7 +46,7 @@ Example usage: https://www.vebitcoin.com/Ticker/Btc
 * Time: Unix timestamp date and time.
 * Open : First price of the day.
 
-## Ticker LTC
+## Ticker LTC (Litecoin)
 
 <code>GET</code> .../Ticker/Ltc
 
@@ -75,7 +75,7 @@ Example usage: https://www.vebitcoin.com/Ticker/Btc
 * Time: Unix timestamp date and time.
 * Open : First price of the day.
 
-## Ticker ETH
+## Ticker ETH (Ethereum)
 
 <code>GET</code> .../Ticker/Eth
 
@@ -104,7 +104,7 @@ Example usage: https://www.vebitcoin.com/Ticker/Btc
 * Time: Unix timestamp date and time.
 * Open : First price of the day.
 
-## Ticker XRP
+## Ticker XRP (Ripple)
 
 <code>GET</code> .../Ticker/Xrp
 
