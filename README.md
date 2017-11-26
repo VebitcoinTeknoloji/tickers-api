@@ -7,7 +7,9 @@ Vebitcoin Coin instant API document
 You can add and use the api address you want to use in the system main url address.
 
 System main url address: https://www.vebitcoin.com
+
 Sample api address: / Ticker / Btc
+
 Example usage: https://www.vebitcoin.com/Ticker/Btc
 
 ## Request Limits
