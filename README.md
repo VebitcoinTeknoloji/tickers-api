@@ -8,7 +8,7 @@ You can add and use the api address you want to use in the system main url addre
 
 System main url address: https://www.vebitcoin.com
 
-Sample api address: / Ticker / Btc
+Sample api address: /Ticker/Btc
 
 Example usage: https://www.vebitcoin.com/Ticker/Btc
 
