@@ -10,7 +10,9 @@ System main url address: https://www.vebitcoin.com
 
 Sample api address: /Ticker/Btc
 
-Example usage: https://www.vebitcoin.com/Ticker/Btc
+Example usage: https://www.vebitcoin.com/Ticker/BTC
+
+This sample will return Vebitcoin live market BTC (Bitcoin) tickers for last 24 hours.
 
 ## Request Limits
 
@@ -45,92 +47,106 @@ Example usage: https://www.vebitcoin.com/Ticker/Btc
 * Volume: Last 24 hours volume.
 * Bid: Highest buy order.
 * Ask: Lowest sell order.
-* Time: Unix timestamp date and time.
+* Time: Unix UTC timestamp date and time.
 * Open : First price of the day.
 
-## Ticker LTC (Litecoin)
+## Supported Tickers List
 
-<code>GET</code> .../Ticker/Ltc
+Available Tickers:
+BTC
+LTC
+ETH
+XRP
 
-**Result:**
-
-```json
-{
-  "Last": 37716.84,
-  "High": 38303.14,
-  "Low": 35659.84,
-  "Vwap": 37037.64,
-  "Volume": 32.6852999,
-  "Bid": 37648.45,
-  "Ask": 37716.84,
-  "Time": "2017-11-26T13:29:26.21",
-  "Open": 37268.57
-}
-```
-* Last: Last LTC price.
-* High: Last 24 hours price high.
-* Low: Last 24 hours price low.
-* Vwap: Last 24 hours volume weighted average price.
-* Volume: Last 24 hours volume.
-* Bid: Highest buy order.
-* Ask: Lowest sell order.
-* Time: Unix timestamp date and time.
-* Open : First price of the day.
-
-## Ticker ETH (Ethereum)
-
-<code>GET</code> .../Ticker/Eth
-
-**Result:**
-
-```json
-{
-  "Last": 37716.84,
-  "High": 38303.14,
-  "Low": 35659.84,
-  "Vwap": 37037.64,
-  "Volume": 32.6852999,
-  "Bid": 37648.45,
-  "Ask": 37716.84,
-  "Time": "2017-11-26T13:29:26.21",
-  "Open": 37268.57
-}
-```
-* Last: Last ETH price.
-* High: Last 24 hours price high.
-* Low: Last 24 hours price low.
-* Vwap: Last 24 hours volume weighted average price.
-* Volume: Last 24 hours volume.
-* Bid: Highest buy order.
-* Ask: Lowest sell order.
-* Time: Unix timestamp date and time.
-* Open : First price of the day.
-
-## Ticker XRP (Ripple)
-
-<code>GET</code> .../Ticker/Xrp
-
-**Result:**
-
-```json
-{
-  "Last": 37716.84,
-  "High": 38303.14,
-  "Low": 35659.84,
-  "Vwap": 37037.64,
-  "Volume": 32.6852999,
-  "Bid": 37648.45,
-  "Ask": 37716.84,
-  "Time": "2017-11-26T13:29:26.21",
-  "Open": 37268.57
-}
-```
-* Last: Last XRP price.
-* High: Last 24 hours price high.
-* Low: Last 24 hours price low.
-* Vwap: Last 24 hours volume weighted average price.
-* Volume: Last 24 hours volume.
-* Bid: Highest buy order.
-* Ask: Lowest sell order.
-* Time: Unix timestamp date and time.
-* Open : First price of the day.
+ADA
+XEM
+TRX
+QTUM
+BCH
+NEO
+XLM
+MIOTA
+EOS
+DASH
+XMR
+LSK
+ICX
+VEN
+ETC
+BTG
+PPT
+XRB
+OMG
+STEEM
+ZEC
+STRAT
+SC
+BCN
+BTS
+XVG
+ZRX
+SNT
+WTC
+MKR
+ARDR
+REP
+WAVES
+VERI
+RHOC
+DCR
+AE
+KMD
+HSR
+GAS
+DRGN
+KNC
+ARK
+LRC
+BAT
+DGB
+ETN
+ELF
+DGD
+PIVX
+QASH
+NAS
+GBYTE
+IGNIS
+BTM
+GNT
+ZCL
+IOST
+CNX
+R
+FUN
+ETHOS
+AION
+CND
+PLR
+FCT
+DENT
+SMART
+SALT
+POWR
+GXS
+NXT
+MONA
+XZC
+NXS
+SYS
+MAID
+RDD
+ENG
+REQ
+SRN
+PAY
+BTX
+ICN
+WAX
+PART
+MED
+GNO
+LINK
+GAME
+QSP
+EMC
