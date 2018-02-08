@@ -50,103 +50,100 @@ This sample will return Vebitcoin live market BTC (Bitcoin) tickers for last 24 
 * Time: Unix UTC timestamp date and time.
 * Open : First price of the day.
 
-## Supported Tickers List
-
-Available Tickers:
-BTC
-LTC
-ETH
-XRP
-
-ADA
-XEM
-TRX
-QTUM
-BCH
-NEO
-XLM
-MIOTA
-EOS
-DASH
-XMR
-LSK
-ICX
-VEN
-ETC
-BTG
-PPT
-XRB
-OMG
-STEEM
-ZEC
-STRAT
-SC
-BCN
-BTS
-XVG
-ZRX
-SNT
-WTC
-MKR
-ARDR
-REP
-WAVES
-VERI
-RHOC
-DCR
-AE
-KMD
-HSR
-GAS
-DRGN
-KNC
-ARK
-LRC
-BAT
-DGB
-ETN
-ELF
-DGD
-PIVX
-QASH
-NAS
-GBYTE
-IGNIS
-BTM
-GNT
-ZCL
-IOST
-CNX
-R
-FUN
-ETHOS
-AION
-CND
-PLR
-FCT
-DENT
-SMART
-SALT
-POWR
-GXS
-NXT
-MONA
-XZC
-NXS
-SYS
-MAID
-RDD
-ENG
-REQ
-SRN
-PAY
-BTX
-ICN
-WAX
-PART
-MED
-GNO
-LINK
-GAME
-QSP
-EMC
+## Available Tickers
+*	BTC
+*	LTC
+*	ETH
+*	XRP
+*	ADA
+*	XEM
+*	TRX
+*	QTUM
+*	BCH
+*	NEO
+*	XLM
+*	MIOTA
+*	EOS
+*	DASH
+*	XMR
+*	LSK
+*	ICX
+*	VEN
+*	ETC
+*	BTG
+*	PPT
+*	XRB
+*	OMG
+*	STEEM
+*	ZEC
+*	STRAT
+*	SC
+*	BCN
+*	BTS
+*	XVG
+*	ZRX
+*	SNT
+*	WTC
+*	MKR
+*	ARDR
+*	REP
+*	WAVES
+*	VERI
+*	RHOC
+*	DCR
+*	AE
+*	KMD
+*	HSR
+*	GAS
+*	DRGN
+*	KNC
+*	ARK
+*	LRC
+*	BAT
+*	DGB
+*	ETN
+*	ELF
+*	DGD
+*	PIVX
+*	QASH
+*	NAS
+*	GBYTE
+*	IGNIS
+*	BTM
+*	GNT
+*	ZCL
+*	IOST
+*	CNX
+*	R
+*	FUN
+*	ETHOS
+*	AION
+*	CND
+*	PLR
+*	FCT
+*	DENT
+*	SMART
+*	SALT
+*	POWR
+*	GXS
+*	NXT
+*	MONA
+*	XZC
+*	NXS
+*	SYS
+*	MAID
+*	RDD
+*	ENG
+*	REQ
+*	SRN
+*	PAY
+*	BTX
+*	ICN
+*	WAX
+*	PART
+*	MED
+*	GNO
+*	LINK
+*	GAME
+*	QSP
+*	EMC
