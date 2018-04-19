@@ -2,17 +2,25 @@
 
 Vebitcoin coin instant Api document
 
-## Usage
+## Usage For Single Cryptocurrency
 
 You can add and use the api address you want to use in the system main url address.
 
 System main url address: https://www.vebitcoin.com
 
-Sample api address: /Ticker/Btc
+Sample Api: /Ticker/Btc
 
 Example usage: https://www.vebitcoin.com/Ticker/BTC
 
 This sample will return Vebitcoin live market BTC (Bitcoin) tickers for last 24 hours.
+
+## Usage For All Cryptocurrencies
+
+Api: /Ticker/All
+
+Example usage: https://www.vebitcoin.com/Ticker/All
+
+This sample return Vebitcoin live market all coin tickers for last 24 hours.
 
 ## Request Limits
 
@@ -29,6 +37,7 @@ This sample will return Vebitcoin live market BTC (Bitcoin) tickers for last 24 
 
 ```json
 {
+  "Code": "BTC"
   "Last": 37716.84,
   "High": 38303.14,
   "Low": 35659.84,
