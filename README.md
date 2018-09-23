@@ -2,157 +2,55 @@
 
 Vebitcoin coin instant Api document
 
-## Usage For Single Cryptocurrency
+Service has been moved to Google Cloud. Please use new  RESTFul API address
 
-You can add and use the api address you want to use in the system main url address.
+https://us-central1-vebitcoin-market.cloudfunctions.net/app/api
 
-System main url address: https://www.vebitcoin.com
+## Methods
 
-Sample Api: /Ticker/Btc
+### Pair Market Information
 
-Example usage: https://www.vebitcoin.com/Ticker/BTC
+/ticker?sourcecoin=sourceCoinCode&targetcoin=targetCoinCode
 
-This sample will return Vebitcoin live market BTC (Bitcoin) tickers for last 24 hours.
+Sample For : BTC/TRY market information.
 
-## Usage For All Cryptocurrencies
+ticker?sourcecoin=btc&targetcoin=try
 
-Api: /Ticker/All
+Example usage: https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker?sourcecoin=btc&targetcoin=try
+Return JSON
 
-Example usage: https://www.vebitcoin.com/Ticker/All
+[
+   {
+      "Ask":42413.31,
+      "Bid":42423.31,
+      "High":42323.21,
+      "Low":42267.04,
+      "Price":42267.04,
+      "Open":0,
+      "Volume":171065.1603487092,
+      "Time":"2018-09-23T09:04:32.760455Z",
+      "SourceCoinCode":"BTC",
+      "TargetCoinCode":"TRY"
+   }
+]
 
-This sample return Vebitcoin live market all coin tickers for last 24 hours.
+This sample will return Vebitcoin live market BTC (Bitcoin) / TRY (Turkish Lira) tickers for last 24 hours.
 
-## Request Limits
+## All Market Information
 
-* .../Ticker/... requests are limited to 10 requests per 100 miliseconds.
-* Other requests are limited to 1 request per 100 miliseconds.
-* If you make more than 60 consequent unauthorized requests your IP address will be blocked.
+/ticker
+Return all markets information by pair.
 
+Example usage: https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker
 
-## Ticker BTC (Bitcoin)
+This sample will return all Vebitcoin live market pair all coin tickers for last 24 hours.
 
-<code>GET</code> .../Ticker/Btc
+## Currency Prices
 
-**Result:**
+/ticker/coinCode
 
-```json
-{
-  "Code": "BTC"
-  "Last": 37716.84,
-  "High": 38303.14,
-  "Low": 35659.84,
-  "Vwap": 37037.64,
-  "Volume": 32.6852999,
-  "Bid": 37648.45,
-  "Ask": 37716.84,
-  "Time": "2017-11-26T13:29:26.21",
-  "Open": 37268.57
-}
-```
-* Last: Last BTC price.
-* High: Last 24 hours price high.
-* Low: Last 24 hours price low.
-* Vwap: Last 24 hours volume weighted average price.
-* Volume: Last 24 hours volume.
-* Bid: Highest buy order.
-* Ask: Lowest sell order.
-* Time: Unix UTC timestamp date and time.
-* Open : First price of the day.
+Vebitcoin has alternative ways to exchange. Forexample; user can exchange BTC with TRY and BTC with TUSD, or User can exchange XRP with BTC and XRP with TRY.
+If you want to fetch information about Currency prices forexample XRP prices.
 
-## Available Tickers
-*	BTC
-*	LTC
-*	ETH
-*	XRP
-*	ADA
-*	XEM
-*	TRX
-*	QTUM
-*	BCH
-*	NEO
-*	XLM
-*	MIOTA
-*	EOS
-*	DASH
-*	XMR
-*	LSK
-*	ICX
-*	VEN
-*	ETC
-*	BTG
-*	PPT
-*	XRB
-*	OMG
-*	STEEM
-*	ZEC
-*	STRAT
-*	SC
-*	BCN
-*	BTS
-*	XVG
-*	ZRX
-*	SNT
-*	WTC
-*	MKR
-*	ARDR
-*	REP
-*	WAVES
-*	VERI
-*	RHOC
-*	DCR
-*	AE
-*	KMD
-*	HSR
-*	GAS
-*	DRGN
-*	KNC
-*	ARK
-*	LRC
-*	BAT
-*	DGB
-*	ETN
-*	ELF
-*	DGD
-*	PIVX
-*	QASH
-*	NAS
-*	GBYTE
-*	IGNIS
-*	BTM
-*	GNT
-*	ZCL
-*	IOST
-*	CNX
-*	R
-*	FUN
-*	ETHOS
-*	AION
-*	CND
-*	PLR
-*	FCT
-*	DENT
-*	SMART
-*	SALT
-*	POWR
-*	GXS
-*	NXT
-*	MONA
-*	XZC
-*	NXS
-*	SYS
-*	MAID
-*	RDD
-*	ENG
-*	REQ
-*	SRN
-*	PAY
-*	BTX
-*	ICN
-*	WAX
-*	PART
-*	MED
-*	GNO
-*	LINK
-*	GAME
-*	QSP
-*	EMC
+/ticker/xrp
+Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker/xrp
