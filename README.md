@@ -39,6 +39,7 @@ This sample will return Vebitcoin live market BTC (Bitcoin) / TRY (Turkish Lira)
 ## All Market Information
 
 /ticker
+
 Return all markets information by pair.
 
 Example usage: https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker
