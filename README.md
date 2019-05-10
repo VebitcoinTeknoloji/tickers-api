@@ -61,11 +61,13 @@ Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/
 /orderbook?symbol={marketPair}&limit={limit}
 
 Vebitcoin allows you to access the order information of any market.
+
 This method gives the "BID" and "ASK" values on the market.
 
 Symbol   : Market pair (xrpbtc,xrptry)
 Limit    :Record count (0<limit<100)
 
 Example usage 
+
 https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/?symbol=xrptry&limit=5
 https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/?symbol=xrpbtc&limit=10
