@@ -53,7 +53,7 @@ This sample will return all Vebitcoin live market pair all coin tickers for last
 Vebitcoin has alternative ways to exchange. Forexample; user can exchange BTC with TRY and BTC with TUSD, or User can exchange XRP with BTC and XRP with TRY.
 If you want to fetch information about Currency prices forexample XRP prices.
 
-/ticker/xrp
+/ticker/xrp   
 Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker/xrp
 
 ## Order Book (New)
