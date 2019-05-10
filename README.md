@@ -58,9 +58,17 @@ Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/
 
 ## Order Book (New)
 
-Vebitcoin allows you to access the order information of any market. This method gives the "BID" and "ASK" values on the market.
+You can access the order information of any market. This method gives the "BID" and "ASK" values on the market.
 
 {api-url}/orderbook?symbol={marketPair}&limit={limit}
 
 Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/orderbook?symbol=xrptry&limit=5
+
+## Trade Info (New)
+
+You can access the transactions related trade. 
+
+{api-url}/trades?symbol={marketPair}&limit={limit}
+
+Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/trades?symbol=xrptry&limit=5
 
