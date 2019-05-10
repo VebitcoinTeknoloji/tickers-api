@@ -62,5 +62,5 @@ Vebitcoin allows you to access the order information of any market. This method 
 
 {api-url}/orderbook?symbol={marketPair}&limit={limit}
 
-Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/?symbol=xrptry&limit=5
+Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/orderbook?symbol=xrptry&limit=5
 
