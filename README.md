@@ -46,15 +46,6 @@ Example usage: https://prod-data-publisher.azurewebsites.net/api/ticker
 
 This sample will return all Vebitcoin live market pair all coin tickers for last 24 hours.
 
-## Currency Prices
-
-/ticker/coinCode
-
-Vebitcoin has alternative ways to exchange. Forexample; user can exchange BTC with TRY and BTC with TUSD, or User can exchange XRP with BTC and XRP with TRY.
-If you want to fetch information about Currency prices forexample XRP prices.
-
-/ticker/xrp   
-Example usage : https://prod-data-publisher.azurewebsites.net/api/ticker/xrp
 
 ## Order Book (New)
 
