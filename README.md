@@ -2,9 +2,9 @@
 
 Vebitcoin coin instant Api document
 
-Service has been moved to Google Cloud. Please use new  RESTFul API address
+Please use new  RESTFul API base address
 
-https://us-central1-vebitcoin-market.cloudfunctions.net/app/api
+https://prod-data-publisher.azurewebsites.net/api
 
 ## Methods
 
@@ -16,7 +16,7 @@ Sample For : BTC/TRY market information.
 
 ticker?sourcecoin=btc&targetcoin=try
 
-Example usage: https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker?sourcecoin=btc&targetcoin=try
+Example usage: https://prod-data-publisher.azurewebsites.net/api/ticker?sourcecoin=btc&targetcoin=try
 Return JSON
 
 [
@@ -42,7 +42,7 @@ This sample will return Vebitcoin live market BTC (Bitcoin) / TRY (Turkish Lira)
 
 Return all markets information by pair.
 
-Example usage: https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker
+Example usage: https://prod-data-publisher.azurewebsites.net/api/ticker
 
 This sample will return all Vebitcoin live market pair all coin tickers for last 24 hours.
 
@@ -54,7 +54,7 @@ Vebitcoin has alternative ways to exchange. Forexample; user can exchange BTC wi
 If you want to fetch information about Currency prices forexample XRP prices.
 
 /ticker/xrp   
-Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/ticker/xrp
+Example usage : https://prod-data-publisher.azurewebsites.net/api/ticker/xrp
 
 ## Order Book (New)
 
@@ -62,7 +62,7 @@ You can access the order information of any market. This method gives the "BID" 
 
 {api-url}/orderbook?symbol={marketPair}&limit={limit}
 
-Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/orderbook?symbol=xrptry&limit=5
+Example usage : https://prod-data-publisher.azurewebsites.net/api/orderbook?symbol=xrptry&limit=5
 
 ## Trade Info (New)
 
@@ -70,5 +70,5 @@ You can access the transactions related trade.
 
 {api-url}/trades?symbol={marketPair}&limit={limit}
 
-Example usage : https://us-central1-vebitcoin-market.cloudfunctions.net/app/api/trades?symbol=xrptry&limit=5
+Example usage : https://prod-data-publisher.azurewebsites.net/api/trades?symbol=xrptry&limit=5
 
